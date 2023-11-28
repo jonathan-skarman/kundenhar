@@ -3,7 +3,7 @@ header{
   background-color: #120019;
 }
 
-#marigin{
+.marigin{
     grid-area: mg;
     background-color: #120019;
 }
@@ -34,3 +34,9 @@ darker background #161616
 lighter background #1c1c1c
 border #282828
 */
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}

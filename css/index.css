@@ -6,14 +6,12 @@ body {
 #wrapper {
   display: grid;
 
-  grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
-  grid-template-rows: 10% 10% 30% 10% 40%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 30% 40%;
   grid-template-areas:
-    "hd hd hd hd hd hd hd hd"
-    "mg mg mg mg mg mg mg mg"
-    "mg rk rk rk rk rk rk mg"
-    "mg mg mg mg mg mg mg mg"
-    "mg pr pr pr pr pr pr mg";
+    "hd"
+    "rk"
+    "pr";
 
     /*
     nv = nav
@@ -27,3 +25,21 @@ body {
   width: 100vw;
 }
 
+header{
+  display: grid;
+
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas: 
+  "lg" "sr" "kn";
+
+  /*
+  lg = logo
+  sr = searchbar
+  kn = kontakta oss
+  */
+}
+
+img {
+  height: 97.5%;
+  border-radius: 1.25%;
+}
