@@ -1,0 +1,29 @@
+
+body {
+  margin: 0;
+}
+
+#wrapper {
+  display: grid;
+
+  grid-template-columns: 10% 1fr 1fr 1fr 1fr 1fr 1fr 10%;
+  grid-template-rows: 10% 10% 30% 10% 40%;
+  grid-template-areas:
+    "hd hd hd hd hd hd hd hd"
+    "mg mg mg mg mg mg mg mg"
+    "mg rk rk rk rk rk rk mg"
+    "mg mg mg mg mg mg mg mg"
+    "mg pr pr pr pr pr pr mg";
+
+    /*
+    nv = nav
+    hd = header
+    rk = reklam
+    pr = produkt
+    mg = marigin
+    */
+
+  height: 100vh;
+  width: 100vw;
+}
+

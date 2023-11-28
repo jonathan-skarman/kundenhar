@@ -1,0 +1,36 @@
+header{
+  grid-area: hd;
+  background-color: #120019;
+}
+
+#marigin{
+    grid-area: mg;
+    background-color: #120019;
+}
+
+#reklam{
+    grid-area: rk;
+    background-color: red;
+}
+
+#produkt{
+    grid-area: pd;
+    background-color: white;
+}
+
+nav{
+    grid-area: nv;
+    background-color: #9b59b6;
+}
+
+
+/* 
+accent colour #9b59b6
+darker accent #6c58b5
+background #120019
+
+duckduckgo har:
+darker background #161616
+lighter background #1c1c1c
+border #282828
+*/
