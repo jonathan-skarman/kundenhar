@@ -1,1 +1,8 @@
-Dina cssfiler i denna mapp
+accent colour #9b59b6
+darker accent #6c58b5
+background #120019
+
+duckduckgo har:
+darker background #161616
+lighter background #1c1c1c
+border #282828
