@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#wrapper {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "hd"
+    "rk"
+    "pr";
+
+    /*
+    nv = nav
+    hd = header
+    rk = reklam
+    pr = produkt
+    mg = marigin
+    */
+
+  height: 100vh;
+  width: 100vw;
+}
+
+header{
+  grid-area: hd;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /*
+  lg = logo
+  sr = searchbar
+  kn = kontakta oss
+  */
+
+}
+
+.header{
+  width: 90%;
+  height: 90%;
+}
+
+#logo{
+  flex:1;
+}
+
+#search_bar{
+  flex:6;
+}
+
+#contact{
+  flex:1;
+}
+
+#search_bar a img {
+  width: 100%;
+}

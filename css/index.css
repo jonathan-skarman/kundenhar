@@ -29,9 +29,8 @@ header{
   grid-area: hd;
 
   display: flex;
-
   justify-content: space-around;
-  align-content: space-around;
+  align-items: center;
 
   /*
   lg = logo
@@ -41,9 +40,25 @@ header{
 
 }
 
-img, .header{
+.header{
   width: 90%;
   height: 90%;
+}
+
+#logo{
+  flex:1;
+}
+
+#search_bar{
+  flex:6;
+}
+
+#contact{
+  flex:1;
+}
+
+#search_bar a img {
+  width: 100%;
 }
 
 #reklam{
@@ -52,7 +67,7 @@ img, .header{
   height: 100%;
 }
 
-img, #reklam{
+#reklam img{
   height: 100%;
   width: 100%;
 }
@@ -62,10 +77,11 @@ img, #reklam{
 
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
 }
 
-img, #produkt{
-  height: 100%;
-  width: 100%;
+#produkt img{
+  height: 90%;
 }
 
