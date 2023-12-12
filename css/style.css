@@ -65,10 +65,12 @@ header{
   height: 100%;
 }
 
+
 #reklam img{
-  height: 100%;
   width: 100%;
+  height: 100%; /*vill kunna ta bort*/
 }
+
 
 #produkt{
   grid-area: pr;
