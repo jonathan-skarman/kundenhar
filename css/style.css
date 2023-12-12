@@ -85,3 +85,15 @@ header{
   height: 90%;
 }
 
+.produkt{
+  grid-area: pr;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.produkt img{
+  height: 90%;
+}
