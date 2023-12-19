@@ -20,7 +20,7 @@ body {
     */
 
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 }
 
 header{
@@ -182,4 +182,50 @@ header{
   padding: 2px 16px;
 }
 
+/*-___-___-___-___-___-___-___-___-___-___-*/
+/*products*/
+
+.titel {
+  text-decoration: underline;
+  text-size-adjust: 200%;
+  font-weight: 700;
+}
+
+.produkt {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 16.66%;
+  max-height: 100%;
+}
+
+.produkt img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.produkt p {
+  margin: 0%;
+}
+
+.produkt button {
+  background-color: #9b59b6;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: 400;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.produkt button img {
+  max-width: 10%;
+  max-height: 10%;
+}
 /*-___-___-___-___-___-___-___-___-___-___-*/
