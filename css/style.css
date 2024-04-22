@@ -5,7 +5,7 @@ body {
 #wrapper1 {
   display: grid;
 
-  grid-template-rows: 20% 30% 50%;
+  grid-template-rows: 20% 35% 50%;
   grid-template-areas:
     "hd"
     "rk"
@@ -19,7 +19,6 @@ body {
     mg = marigin
     */
 
-  height: 100vh;
   width: 100%;
 }
 
@@ -104,7 +103,6 @@ header{
     */
 
   height: 100vh;
-  width: 1fr;
 }
 
 .produkt2{
@@ -145,7 +143,6 @@ header{
     */
 
   height: 100vh;
-  width: 1fr;
 }
 
 #arbetare{
@@ -170,6 +167,8 @@ header{
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   margin: 5%;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -207,7 +206,7 @@ header{
   margin: 0%;
 }
 
-.produkt button {
+.produkt .button {
   background-color: #9b59b6;
   border: none;
   color: white;
@@ -217,15 +216,16 @@ header{
   display: inline-block;
   font-size: 20px;
   border-radius: 10px;
-  width: 100%;
   font-weight: 400;
+
+  width: 90%;
 
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
 }
 
-.produkt button img {
+.produkt .button img {
   max-width: 10%;
   max-height: 10%;
 }
